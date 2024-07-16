@@ -4,7 +4,7 @@ const findOrCreate = require('mongoose-findorcreate');
 
 const { Schema, model } = mongoose;
 
-const db_uri = 'mongodb://localhost/gallerist';
+const db_uri = 'mongodb+srv://Legendarius:legendary@mvptownhall.aql4yy2.mongodb.net/gallerist';
 
 mongoose.connect(db_uri)
   .then(() => console.log('Connection to Database successful'))
